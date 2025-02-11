@@ -1,0 +1,554 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Plataformas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding">
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://logowik.com/content/uploads/images/xbox-black7554.jpg" />
+      <ion-card-header>
+        <ion-card-title>Xbox</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Here's a small text description for the card content. Nothing more, nothing less.
+        <ion-button fill="clear" class="heart-button">
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    
+
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://static.vecteezy.com/system/resources/previews/020/190/708/original/playstation-ps5-ps4-logo-free-free-vector.jpg" />
+      <ion-card-header>
+        <ion-card-title>Playstation</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Juegos de xbox, vieja y nueva generación
+        <ion-button fill="clear" class="heart-button">
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://tse3.mm.bing.net/th?id=OIP.g5CEFia3uQC1VvG_WPztWwAAAA&pid=Api&P=0&h=180" />
+      <ion-card-header>
+        <ion-card-title>Nintendo switch</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Juegos de nintendo switch
+        <ion-button fill="clear" class="heart-button">
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://tse2.mm.bing.net/th?id=OIP.CRhG44OTUQUTaVZAQN5tmgHaEK&pid=Api&P=0&h=180" />
+      <ion-card-header>
+        <ion-card-title>Steam</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Juegos para pc
+        <ion-button fill="clear" class="heart-button">
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-buttons slot="secondary">
+        <ion-button>
+          <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+        </ion-button>
+        <ion-button>
+          <ion-icon slot="icon-only" name="search"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="primary">
+        <ion-button>
+          <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>
+        Enebo
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true">
+    <div class="banner"></div>
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Enebo</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <div class="search-container">
+      <ion-searchbar placeholder="Buscar juego..." debounce="500"></ion-searchbar>
+    </div>
+
+    <div class="game-list">
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://assetsio.reedpopcdn.com/co4vk4.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp" alt="Banner Extra">
+        </div>
+        <ion-card-content>
+          <div class="game-header">
+            <h2 class="game-title">Minecraft: Java & Bedrock Edition (PC)</h2>
+            <ion-button fill="clear" class="heart-button">
+              <ion-icon name="heart" slot="icon-only"></ion-icon>
+
+            </ion-button>
+          </div>
+          <p class="global-tag">GLOBAL</p>
+          <p class="price-label">Desde</p>
+          <p class="price">314,09 MXN</p>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/sUy2lsKaBsQQG87bW_irtBrEf7JShOf_tFNqj1qeizE_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <ion-card-content>
+          <div class="game-header">
+            <h2 class="game-title">Cyberpunk 2077 (PC)</h2>
+                      <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+            <ion-button fill="clear" class="heart-button">
+            </ion-button>
+          </div>
+          <p class="global-tag">GLOBAL</p>
+          <p class="price-label">Desde</p>
+          <p class="price">499,99 MXN</p>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+      
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/up7_Ffq3Xkq_X4XTu54nWVEO_56nRq00Ux_EsndVS9s_350x200_1x-0.jpeg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Xbox Game Pass for PC - 1 Month TRIAL Windows Store Non-stackable Key BRAZIL</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <p class="global-tag">Brasil</p>
+          <p class="price-label">Desde</p>
+          <p class="price">17,44 MXN</p>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/s29Db6ZBVLneuD0t66qnYRamvGDP3p8chLz-3IomxcU_350x200_1x-0.jpeg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Grand Theft Auto V: Edición Online Premium Rockstar Games Launcher Código GLOBAL</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <p class="global-tag">Global</p>
+          <p class="price-label">Desde</p>
+          <p class="price">195,24 MXN</p>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/iQlB8hB_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">DMC: Devil May Cry Steam Key GLOBAL</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <p class="global-tag">Global</p>
+          <p class="price-label">Desde</p>
+          <p class="price">35,52 MXN</p>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/So3KAqYO7hcMqz0O2O-NOXF1FDR8-uII46pfh46wp1s_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">The Last of Us™ Part II Remastered Steam Key (PC) MEXICO</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <p class="global-tag">México</p>
+          <p class="price-label">Desde</p>
+          <p class="price">35,52 MXN</p>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/X1HjTC1kFtPNs6R6Tx0MSOSWnQJkU0vtovolJXa4U3U_350x200_1x-0.jpeg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+          <ion-icon name="heart-outline" class="favorite-icon"></ion-icon>
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Call of Duty: Black Ops III - Zombies Chronicles Edition (Xbox One) Xbox Live Key MEXICO</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <p class="global-tag">México</p>
+          <p class="price-label">Desde</p>
+          <p class="price">552,98 MXN</p>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/zvgANbZx9d5gtMFT6ME6ntFeA5uzXdsEObDJdxeZ1-Q_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Marvel's Spider-Man 2 (PS5) Código de PSN MEXICO</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <p class="global-tag">México</p>
+          <p class="price-label">Desde</p>
+          <p class="price">952,82 MXN</p>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  
+    
+    <div class="game-list">
+      <ion-title size=>Recargas
+         directas
+      </ion-title>
+  
+      <!-- Tarjeta 1 - Minecraft -->
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/nE8GOMi5I_1afzx_ttW7IaIqz5nFZH1z1jmJiRNLPrY_350x200_1x-0.png" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Recarga Marvel Rivals Lattices (PC/PlayStation/Xbox) Global</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <div class="likes"> 
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/8HV8KIykdmpxTIsvB_bP1LrnrFruKUzDZ2EqersROI4_350x200_1x-0.png" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Top Up EA FC Mobile MEXICO</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+      
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/-WGixytnpJPJ0nod5W9QIfmE5AgmotZ05NJ0XjMZQIs_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Top Up Razer Gold Mexico</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <div class="likes">
+          </div>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/_hS2LARpnogBAjmWFfpSwQEdYsEviI3Qh_b8E55DcMU_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+          <ion-icon name="heart-outline" class="favorite-icon"></ion-icon>
+        </div>
+        <ion-card-content>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/e1vW0aITrE_gHgudhhur7X1EO-vUu32P9xNes_fq7tc_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Recarga ML Diamonds Global</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/oRsKTfV5mqYCj73MT4i3JBN5S_Ro-IhvQpCiziG6pC0_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Top Up Ragnarok Origin Nyan Berry North America</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/qDYI8m8b0hMHD9AuNy3Q4IQobu5LOSuGsbJla-QTY08_350x200_1x-0.jpg" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Recarga Free Fire Diamonds Global</h2>
+          
+          <!-- Corazón Button -->
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+      
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+      
+      <ion-card class="game-card">
+        <div class="extra-image-container">
+          <img src="https://products.eneba.games/resized-products/FDEL93QE3KnXEDx5Hp1L0g0dJnXL95WpKI4kdHVb4Bc_350x200_1x-0.png" alt="Banner Extra">
+        </div>
+        <div class="image-container">
+        </div>
+        <ion-card-content>
+          <h2 class="game-title">Recargas Bigo Live Diamond Global</h2>
+          <ion-button fill="clear" class="heart-button">
+            <ion-icon name="heart" slot="icon-only"></ion-icon>
+          </ion-button>
+          <ion-button expand="full" color="warning" class="buy-button">
+            Comprar ahora
+          </ion-button>
+          <ion-button expand="full" fill="outline" class="explore-button">
+            Explorar opciones
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+
+    </div>
+  </ion-content>
+</div>
+
+<style>
+  .game-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px;
+  }
+
+  .game-card {
+    background: #240046;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .extra-image-container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .extra-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .game-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .game-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .global-tag {
+    color: limegreen;
+    font-weight: bold;
+  }
+
+  .price-label {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .heart-button {
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .likes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  .buy-button {
+    font-weight: bold;
+  }
+
+  .explore-button {
+    color: white;
+    border-color: white;
+  }
+</style>
